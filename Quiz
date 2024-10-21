@@ -1,0 +1,146 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int i;
+    int quesA, quesB, quesC, quesD, quesE;
+    int point1,point2,point3,point4,point5;
+    int point01,point02,point03,point04,point05;
+    int total1,total2;
+    total1=0;
+
+    cout<<"\n\n***** WELCOME TO MY QUIZ *****\n"<<endl;
+cout<<" > Enter 1 to start quiz:-\t\n"<<endl;
+cout<<" > Enter 0 to quit quiz:-\t\n"<<endl;
+cin>>i;
+if(i==1){
+    cout<<"\n****The game has started.****\n"<<endl;
+}
+else if (i==0){
+    cout<<"!!!!The game has ended.!!!!\n"<<endl;
+    return 0;
+}
+else{
+    cout<<"Invalid"<<endl;
+}
+cout<<" A.) Who devloped C language?\n"<<endl;
+cout<<"1.)Charles babage"<<endl;
+cout<<"2.)Marck zuckerberg "<<endl;
+cout<<"3.)Bill Gates"<<endl;
+cout<<"4.)Denis ritchie "<<endl;
+cout<<"5.)Bjarne Stroustrup\n"<<endl;
+cout<<"Enter your answer:-\t";
+cin>>quesA;
+if(quesA==4){
+    cout<<"\nCorrect answer"<<endl;
+    point1=5;
+    total1++;
+    cout<<"\nYou have scored:-\t"<< point1 <<endl;
+
+}
+else{
+    cout<<"\nWrong answer"<<endl;
+    point01=0;
+    cout<<"\nYou have scored:-"<<point01<<endl;
+
+}
+cout<<"\n";
+
+cout<<" B.)Which language is commonly used for web development?\n"<<endl;
+cout<<"1.)Python"<<endl;
+cout<<"2.)Java"<<endl;
+cout<<"3.)C++"<<endl;
+cout<<"4.)C "<<endl;
+cout<<"5.)javascript\n"<<endl;
+cout<<"Enter your answer:-\t";
+cin>>quesB;
+if(quesB==5){
+    cout<<"\nCorrect answer"<<endl;
+    point2=5;
+   total1++;
+    cout<<"\nYou have scored:-\t"<< point2 <<endl;
+
+}
+else{
+    cout<<"\nWrong answer"<<endl;
+    point02=0;
+    cout<<"\nYou have scored:-"<<point02<<endl;
+
+}
+cout<<"\n";
+cout<<" C.)What does 'HTTP' stand for?\n"<<endl;
+cout<<"1.)Hypertext transfer protocol "<<endl;
+cout<<"2.)Hightext transfer protocol"<<endl;
+cout<<"3.)Hypertech transmision protocol"<<endl;
+cout<<"4.)Hightext transfer protocol "<<endl;
+cout<<"5.)Hybertext transfor protocol\n"<<endl;
+cout<<"Enter your answer:-\t";
+cin>>quesC;
+if(quesC==1){
+    cout<<"\nCorrect answer"<<endl;
+    point3=5;
+   total1++;
+    cout<<"\nYou have scored:-\t"<< point3 <<endl;
+
+}
+else{
+    cout<<"\nWrong answer"<<endl;
+    point03=0;
+    cout<<"\nYou have scored:-"<<point03<<endl;
+
+}
+cout<<"\n";
+cout<<" D.)Which device is used primarily for data storage?\n"<<endl;
+cout<<"1.)Server "<<endl;
+cout<<"2.)Switch"<<endl;
+cout<<"3.)Router"<<endl;
+cout<<"4.)Hard drive "<<endl;
+cout<<"5.)Hub\n"<<endl;
+cout<<"Enter your answer:-\t";
+cin>>quesD;
+if(quesD==4){
+    cout<<"\nCorrect answer"<<endl;
+    point4=5;
+   total1++;
+    cout<<"\nYou have scored:-\t"<< point4 <<endl;
+
+}
+else{
+    cout<<"\nWrong answer"<<endl;
+    point04=0;
+    cout<<"\nYou have scored:-"<<point04<<endl;
+
+}
+
+
+cout<<"\n";
+cout<<" E.)What is cybersecurity focused on protecting?\n"<<endl;
+cout<<"1.)Hardware "<<endl;
+cout<<"2.)Software"<<endl;
+cout<<"3.)Information"<<endl;
+cout<<"4.)Electricity drive "<<endl;
+cout<<"5.)Drainage\n"<<endl;
+cout<<"Enter your answer:-\t";
+cin>>quesE;
+if(quesE==3){
+    cout<<"\nCorrect answer"<<endl;
+    point5=5;
+   total1++;
+    cout<<"\nYou have scored:-\t"<< point5 <<endl;
+
+}
+else{
+    cout<<"\nWrong answer"<<endl;
+    point05=0;
+    cout<<"\nYou have scored:-"<<point05<<endl;
+
+}
+
+total2=total1*5;
+
+cout<<"\nYour total score is:- "<< total2<<endl;
+cout<<"\n \n";
+
+cout<<"***** Thanks for playing quiz  ****";
+
+    return 0;
+}
